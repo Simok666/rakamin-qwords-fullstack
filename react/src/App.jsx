@@ -18,6 +18,7 @@ import IconGuard from './assets/servicesicon/guard.png';
 import IconNetwork from './assets/servicesicon/networkAlt.png';
 import IconRouter from './assets/servicesicon/router.png';
 import IconNetwork2 from './assets/servicesicon/network.png';
+import IconBig from './assets/customerimage/Big-logo.png';
 
 
 function App() {
@@ -353,6 +354,29 @@ function App() {
               }
               </div>
         </div>
+
+        <div id='customer' className='flex py-10 px-16  bg-gray-500/10'>
+          <div className='m-auto grid grid-cols-3 gap-4'>
+              <div className='pt-24'>
+                <h1 className='font-extrabold text-6xl pb-5'>
+                    Telah Dipercaya oleh
+                  <br/>
+                  <span className='font-extrabold text-6xl pb-5 text-orange-600 '>
+                    45.000+ Pelanggan Aktif
+                  </span>
+                </h1>
+                <div className='font-semibold text-base pb-12'>
+                  Website telah terdaftar bersama kami. Sebelum kamu juga daftar, ketahui bahwa pilihanmu tepat karena kami ada & berkembang sejak tahun 2007.
+                </div>
+              </div>
+              <div className='col-span-2'>
+                  <img src={IconBig} alt="" />
+              </div>
+            </div>
+        </div>
+
+        <div></div>
+
       </main>
     </div>
   )
